@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".root", ".root", "{0450F0E0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E5C09A83-8E4E-4E1C-8F5A-A1D6DEF5951A}"
 	ProjectSection(SolutionItems) = preProject
+		src\Data.Extensions.Npgsql\Data.Extensions.Npgsql.csproj = src\Data.Extensions.Npgsql\Data.Extensions.Npgsql.csproj
+		src\Data.Extensions.Npgsql.NodaTime\Data.Extensions.Npgsql.NodaTime.csproj = src\Data.Extensions.Npgsql.NodaTime\Data.Extensions.Npgsql.NodaTime.csproj
+		src\Data.Extensions.SqlClient\Data.Extensions.SqlClient.csproj = src\Data.Extensions.SqlClient\Data.Extensions.SqlClient.csproj
+		src\Data.Extensions.SqlClient.NodaTime\Data.Extensions.SqlClient.NodaTime.csproj = src\Data.Extensions.SqlClient.NodaTime\Data.Extensions.SqlClient.NodaTime.csproj
 		src\Directory.Build.props = src\Directory.Build.props
 	EndProjectSection
 EndProject
@@ -23,9 +27,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{90423816
 		tests\Directory.Build.props = tests\Directory.Build.props
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data.Extensions", "src\Data.Extensions\Data.Extensions.csproj", "{17F07C39-46F0-401F-A485-CBAC3A0F4F10}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17F07C39-46F0-401F-A485-CBAC3A0F4F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17F07C39-46F0-401F-A485-CBAC3A0F4F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17F07C39-46F0-401F-A485-CBAC3A0F4F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17F07C39-46F0-401F-A485-CBAC3A0F4F10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17F07C39-46F0-401F-A485-CBAC3A0F4F10} = {E5C09A83-8E4E-4E1C-8F5A-A1D6DEF5951A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {42F76AFC-CBD6-4298-96E0-6CF8B22CFB8F}
