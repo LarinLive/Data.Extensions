@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
 		<TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
@@ -10,7 +10,7 @@
 		<EmbedUntrackedSources>true</EmbedUntrackedSources>
 		<IncludeSymbols>True</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
-		<PackageTags>LarinLive.Data.Extensions;data.extensions;larin</PackageTags>
+		<PackageTags>LarinLive.Data.Extensions;data.extensions;larinlive;larin</PackageTags>
 		<IncludeContentInPack>true</IncludeContentInPack>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<PackageProjectUrl>https://github.com/LarinLive/Data.Extensions</PackageProjectUrl>
